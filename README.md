@@ -1,4 +1,4 @@
-# Robo-Advising Portfolio Project
+# 🛡️ Robo-Advising Portfolio Project
 
 # Low-Volatility Portfolio Construction Engine
 
