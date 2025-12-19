@@ -10,7 +10,7 @@ Unlike traditional robo-advisors that maximize Sharpe Ratio or Alpha to beat the
 ## Technical Implementation
 
 * **Dynamic Thresholding:** The algorithm adds stocks one by one, calculating the average correlation between the candidate and the existing portfolio.
-* **Adaptive Filtering:** It runs simulations across multiple correlation strictness levels (e.g., 0.3, 0.4, 0.5) to find the perfect balance between diversification and stability.
+* **Adaptive Filtering:** It runs simulations across multiple correlation strictness levels to find the perfect balance between diversification and stability.
 
 After generating portfolios across various correlation thresholds, the script selects the portfolio with the **lowest expected daily return**.
 
